@@ -11,6 +11,7 @@
 	---
 	
 	IDE:
+	- Keil uVision 5
 	- SW4STM32
 
 ---
