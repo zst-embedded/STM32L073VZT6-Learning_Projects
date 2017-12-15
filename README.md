@@ -8,9 +8,15 @@ Project                                            | Done on    | Category      
 ---------------------------------------------------|:----------:| ------------------ | -----------------
 [TFT-Display_BSP]                                  | 2017-12-06 | TFT Display        |
 [Joystick_BSP]                                     | 2017-12-10 | Joystick           | 
+[TFT-Joystick-SnakeGame]                           | 2017-12-11 | Joystick, TFT Display | 
+[DAC-Waveform_Generator]                           | 2017-12-14 | DAC, DMA           |
+[RNG-Dice]                                         | 2017-12-14 | RNG                |
 
 [TFT-Display_BSP]: ./projects/TFT-Display_BSP
 [Joystick_BSP]: ./projects/Joystick_BSP
+[TFT-Joystick-SnakeGame]: ./projects/TFT-Joystick-SnakeGame
+[DAC-Waveform_Generator]: ./projects/DAC-Waveform_Generator
+[RNG-Dice]: ./projects/RNG-Dice
 
 ## [Setup Guide + References](additional/setup.md)
 
