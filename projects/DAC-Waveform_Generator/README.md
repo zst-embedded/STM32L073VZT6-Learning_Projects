@@ -91,7 +91,7 @@
 		(uint32_t*) sine_wave_array, 32, DAC_ALIGN_12B_R);
 
 
-#### [BSP Drivers](../additional/setup.md)
+#### [BSP Drivers](../../additional/setup.md)
 
 STM32L073Z_EVAL BSP drivers are used for the TFT LCD display, joystick and the LEDs.
 

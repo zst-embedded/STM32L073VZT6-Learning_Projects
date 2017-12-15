@@ -38,7 +38,7 @@
 	  - AES, RNG and LPUART1 interrupts
 
 
-#### [BSP Drivers](../additional/setup.md)
+#### [BSP Drivers](../../additional/setup.md)
 
 STM32L073Z_EVAL BSP drivers are used for the TFT LCD display.
 

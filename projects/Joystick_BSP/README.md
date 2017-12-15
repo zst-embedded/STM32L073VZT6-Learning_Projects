@@ -17,7 +17,7 @@
 
 ## Initial Setup Notes
 
-#### [BSP Drivers](../additional/setup.md)
+#### [BSP Drivers](../../additional/setup.md)
 
 STM32L073Z_EVAL BSP drivers are used for the joystick and LEDs.
 

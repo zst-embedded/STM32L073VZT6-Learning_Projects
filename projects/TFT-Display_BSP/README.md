@@ -27,7 +27,7 @@
 	Clock: 32MHz (PLLCLK x4)
 
 
-#### [BSP Drivers](../additional/setup.md)
+#### [BSP Drivers](../../additional/setup.md)
 
 STM32L073Z_EVAL BSP drivers are used for the TFT LCD display and the LEDs.
 
