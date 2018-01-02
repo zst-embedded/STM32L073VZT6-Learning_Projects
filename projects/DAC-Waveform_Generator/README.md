@@ -3,7 +3,9 @@
     STM32L073Z_EVAL
 
     Mini Function Generator using DAC.
-    DAC on PA4 is controlled using DMA with TIM7 as the trigger.
+    The output waveform on PA4 (DAC_OUT1 at CN3).
+
+    The DAC is controlled using DMA with TIM7 as the trigger.
 
 	The TFT Display is controlled by the SPI1 interface.
 	TIM6 draws an animation on the display every second.
@@ -14,6 +16,7 @@
 	---
 
 	IDE:
+	- Keil uVision 5
 	- SW4STM32
 
 ## References
@@ -89,6 +92,14 @@
 	};
 	HAL_DAC_Start_DMA(&hdac, DAC_CHANNEL_1,
 		(uint32_t*) sine_wave_array, 32, DAC_ALIGN_12B_R);
+
+
+#### Pi constants
+ARMCC does not define PI constants.
+Add the following to the compiler flags
+	
+	-DM_PI=3.1415926535897932384626433832795
+	-DM_1_PI=0.31830988618379067153776752674503
 
 
 #### [BSP Drivers](../../additional/setup.md)

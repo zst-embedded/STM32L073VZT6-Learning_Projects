@@ -77,11 +77,12 @@ typedef enum Modes {
 
 #define DAC_DMA_SIZE (64)
 
-bool PC13_Pressed = false;
-JOYState_TypeDef Joystick_State = JOY_NONE;
+// Explictly state volatile variables (especially in Keil)
+volatile bool PC13_Pressed = false;
+volatile JOYState_TypeDef Joystick_State = JOY_NONE;
 
-Mode_TypeDef mode_type = MODE_SINE;
-bool mode_updated = true;
+volatile Mode_TypeDef mode_type = MODE_SINE;
+volatile bool mode_updated = true;
 
 uint16_t DAC_Array[DAC_DMA_SIZE];
 
