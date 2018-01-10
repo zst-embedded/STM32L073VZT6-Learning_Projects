@@ -4,19 +4,21 @@ This is a collection of projects which I have done on the [STM32L073Z_EVAL Evalu
 
 These projects use the STM32CubeMX app to generate project files. I have used [SW4STM32](http://www.st.com/en/development-tools/sw4stm32.html) and [Keil uVision ARM MDK](http://www2.keil.com/mdk5) for the IDE.
 
-Project                                            | Done on    | Category           | Extra Hardware
+Project                                            | Done on    | Category           | Remarks
 ---------------------------------------------------|:----------:| ------------------ | -----------------
 [TFT-Display_BSP]                                  | 2017-12-06 | TFT Display        |
 [Joystick_BSP]                                     | 2017-12-10 | Joystick           | 
 [TFT-Joystick-SnakeGame]                           | 2017-12-11 | Joystick, TFT Display | 
 [DAC-Waveform_Generator]                           | 2017-12-14 | DAC, DMA           |
 [RNG-Dice]                                         | 2017-12-14 | RNG                |
+[TFT-CustomFonts]                                  | 2018-01-03 | TFT Display        | [STM32-LCD_Font_Generator](https://github.com/zst-embedded/STM32-LCD_Font_Generator)
 
 [TFT-Display_BSP]: ./projects/TFT-Display_BSP
 [Joystick_BSP]: ./projects/Joystick_BSP
 [TFT-Joystick-SnakeGame]: ./projects/TFT-Joystick-SnakeGame
 [DAC-Waveform_Generator]: ./projects/DAC-Waveform_Generator
 [RNG-Dice]: ./projects/RNG-Dice
+[TFT-CustomFonts]: ./projects/TFT-CustomFonts
 
 ## [Setup Guide + References](additional/setup.md)
 
