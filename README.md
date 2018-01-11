@@ -8,7 +8,7 @@ Project                                            | Done on    | Category      
 ---------------------------------------------------|:----------:| ------------------ | -----------------
 [TFT-Display_BSP]                                  | 2017-12-06 | TFT Display        |
 [Joystick_BSP]                                     | 2017-12-10 | Joystick           | 
-[TFT-Joystick-SnakeGame]                           | 2017-12-11 | Joystick, TFT Display | 
+[TFT-Joystick-SnakeGame]                           | 2017-12-11 | Joystick, TFT Display | *C++11*
 [DAC-Waveform_Generator]                           | 2017-12-14 | DAC, DMA           |
 [RNG-Dice]                                         | 2017-12-14 | RNG                |
 [TFT-CustomFonts]                                  | 2018-01-03 | TFT Display        | [STM32-LCD_Font_Generator](https://github.com/zst-embedded/STM32-LCD_Font_Generator)
