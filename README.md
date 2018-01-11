@@ -12,6 +12,7 @@ Project                                            | Done on    | Category      
 [DAC-Waveform_Generator]                           | 2017-12-14 | DAC, DMA           |
 [RNG-Dice]                                         | 2017-12-14 | RNG                |
 [TFT-CustomFonts]                                  | 2018-01-03 | TFT Display        | [STM32-LCD_Font_Generator](https://github.com/zst-embedded/STM32-LCD_Font_Generator)
+[FATFS-SD_Card]                                    | 2018-01-03 | SD Card, FATFS     |
 
 [TFT-Display_BSP]: ./projects/TFT-Display_BSP
 [Joystick_BSP]: ./projects/Joystick_BSP
@@ -19,6 +20,7 @@ Project                                            | Done on    | Category      
 [DAC-Waveform_Generator]: ./projects/DAC-Waveform_Generator
 [RNG-Dice]: ./projects/RNG-Dice
 [TFT-CustomFonts]: ./projects/TFT-CustomFonts
+[FATFS-SD_Card]: ./projects/FATFS-SD_Card
 
 ## [Setup Guide + References](additional/setup.md)
 
