@@ -56,7 +56,7 @@ STM32L073Z_EVAL BSP drivers are used for the TFT LCD display and joystick.
 	uint16_t                 LCD_IO_ReadData(uint16_t RegValue);
 	void                     LCD_Delay(uint32_t delay);
 
-Without these, C++ ame mangling is done to these functions which will cause the following errors:
+Without these, C++ name mangling is done to these functions which will cause the following errors:
 
 	linking...
 	TFT-Joystick-SnakeGame\TFT-Joystick-SnakeGame.axf: Error: L6218E: Undefined symbol LCD_Delay (referred from hx8347d.o).
