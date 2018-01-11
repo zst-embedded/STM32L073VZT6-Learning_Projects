@@ -444,6 +444,12 @@ JOYState_TypeDef  BSP_JOY_GetState(void);
 void              BSP_COM_Init(COM_TypeDef COM, UART_HandleTypeDef* huart);
 #endif /* HAL_UART_MODULE_ENABLED */
 
+/* Link functions for LCD peripheral */
+void                     LCD_IO_Init(void);
+void                     LCD_IO_WriteMultipleData(uint8_t *pData, uint32_t Size);
+void                     LCD_IO_WriteReg(uint8_t Reg);
+uint16_t                 LCD_IO_ReadData(uint16_t RegValue);
+void                     LCD_Delay(uint32_t delay);
 /**
   * @}
   */
