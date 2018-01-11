@@ -47,7 +47,6 @@
 #include "FontHeitiTC32.h"
 #include "FontHeitiTC24.h"
 #include "FontAvenirNext20.h"
-#include "FontComicSansMS20.h"
 #include "FontMenlo32.h"
 /* USER CODE END Includes */
 

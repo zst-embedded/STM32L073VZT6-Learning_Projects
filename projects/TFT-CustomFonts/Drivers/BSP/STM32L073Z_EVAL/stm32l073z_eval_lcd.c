@@ -119,7 +119,7 @@ LCD_DrawPropTypeDef DrawProp;
 static LCD_DrvTypeDef  *lcd_drv;
 
 /* Max size of bitmap will based on a font24 (17x24) */
-static uint8_t bitmap[MAX_HEIGHT_FONT*MAX_WIDTH_FONT*2+OFFSET_BITMAP] = {0};
+// static uint8_t bitmap[MAX_HEIGHT_FONT*MAX_WIDTH_FONT*2+OFFSET_BITMAP] = {0};
 
 /**
   * @}
